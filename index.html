@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="icono.jpg">
+    <title>Mi Pagina Web</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body background="fondo.png">
+
+    <audio src="twenty one pilots Stressed Out [OFFICIAL VIDEO] - copia.mp3" autoplay="autoplay" class="eras"></audio>
+    
+    <div class="contenido">
+
+        <div class="cabezera">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twenty_One_Pilots_type_logo_2018.png" class ="top">
+        </div>
+
+        <div class="cuerpo">
+
+            <ul class="lista">
+                <li ><img src="blurry.png" class="bl" onclick="imgSlider('twenty one pilots Stressed Out [OFFICIAL VIDEO] - copia.mp3')" ></li>
+                <li ><img src="trenchh.png" class="tr" onclick="imgSlider('twenty one pilots - Nico And The Niners (Official Video).mp3')" ></li>
+                <li ><img src="scaled.png" class="sc" onclick="imgSlider('Twenty One Pilots - Shy Away (Official Video).mp3')"></li>
+            </ul>
+
+            <script type="text/javascript">
+
+                function imgSlider(nadad){
+                    document.querySelector('.eras').src = nadad;
+                }
+
+                
+            </script>
+
+
+        </div>
+    </div>
+</body>
+</html>
